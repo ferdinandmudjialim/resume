@@ -1,0 +1,108 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+\moveleft.5\hoffset\centerline{\large\bf Ferdinand Mudjialim}
+% Draw a horizontal line the whole width of resume:
+\moveleft\hoffset\vbox{\hrule width \resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+% \moveleft.5\hoffset\centerline{SSN: xxx-xx-1250}
+\moveleft.5\hoffset\centerline{4417 W Norman St.}
+\moveleft.5\hoffset\centerline{Broken Arrow, OK 74012}
+\moveleft.5\hoffset\centerline{918-813-6158}
+\moveleft.5\hoffset\centerline{ferdinandmudjialim@gmail.com}
+
+\begin{resume}
+%\section{OBJECTIVE} I  am seeking a career of civil and political service in which I may apply my creative and analytical talents to complex, real-world problems.  
+
+
+
+\section{EDUCATION} 
+	{\sl \textbf{Bachelor of Science---Computer Science/Mathematics}} \hfill            Fall 2018---Present \\
+ 	University of Tulsa, ABET-accredited program \hfill \underline{Tulsa, OK} 
+
+	\begin{itemize}  \itemsep -2pt %reduce space between items
+	\item Minor in Music (Piano), GPA: 4.0, President's Honor Roll 
+	\end{itemize}
+
+		Relevant Coursework:
+		\begin{itemize}  \itemsep -2pt %reduce space between items
+		\item Fundamental Algorithms, Data Structures, Computer Organization and \\ Assemblers, Comparative Programming Languages, Computing Ethics
+		\item Discrete Mathematics, Intro to Advanced Mathematics
+		\end{itemize}
+                
+%	{\sl Bachelor of Science}---Political Science \hfill \underline{Texas A\&M University}\\
+%		Class of 2008\\
+%              	 Minor: Communication\\ 
+
+
+
+\section{WORK EXPERIENCE}
+	{\sl \textbf{IT Technician, Intern}} \hfill            Summer 2018 \\
+	Union Public Schools \hfill \underline{Tulsa, OK}
+		\begin{itemize}  \itemsep -2pt %reduce space between items
+		\item Imaged and configured over 1250 laptops for future students
+		\item Discovered tool to bypass BIOS security, speeding up workstation setup process
+		\item Wrote Powershell/CMD scripts to automate and speed up configuration
+		\item Responding to support requests (Windows troubleshooting)
+		\end{itemize} 
+
+
+
+\section{TECHNICAL \\ EXPERIENCE}
+	{\sl \textbf{Projects}} \hfill \\ 
+		Online Bible Parser
+		\begin{itemize}  \itemsep -2pt %reduce space between items
+		\item Scrapes an online Indonesian Bible website to parse user-requested verses into an output text file
+		\item Used to increase efficiency in making custom verse presentations for local church
+		\item Technologies: Python (Beautiful Soup, Requests), Regular expressions, File I/O
+		\end{itemize}
+		
+		Raspberry Pi Home Network Server
+		\begin{itemize}  \itemsep -2pt %reduce space between items
+		\item Built an all-in-one NAS file server, print server, and web server for home network on Raspberry Pi
+		\item Technologies: SMB, CUPS, SSH, Apache, Raspbian (Debian)
+		\end{itemize}
+
+	{\sl \textbf{Research}} \hfill \\ 
+		(Ongoing) RAGE Attack Graph Engine + Robot Cars Testbed
+		\begin{itemize}  \itemsep -2pt %reduce space between items
+		\item Currently working with two teams to develop a bridging research project
+		\item Using an attack graph generator to produce possible attack vectors for a network with robot cars running vulnerable software
+		\item End goal of presenting a proof-of-concept in which an attacker could use the attack vectors generated to gain unauthorized control of robot cars
+		\item Technologies: C++, PostgreSQL, GraphViz, Debian
+		\item Useful skills: Graph Theory, Discrete Mathematics, Networks
+		\end{itemize}
+                   
+%\center{\emph{(over)}}
+
+\section{TECHNICAL \\ SKILLS} {\sl \textbf{Languages \& Software}:} \\
+--- Most experience: Python, Java, Git, Linux (Debian, Arch) \\
+--- Prior experience: HTML, CSS \\
+
+
+\vfill
+%\section{CAMPUS \\ INVOLVEMENT}  
+%	\begin{itemize} \itemsep -2pt
+%	\item {\sl Election Commissioner,} 2007---2008; Conducted and regulated campus-wide student elections
+%	\item Two-year member of Student Senate, Chair of Student Services Committee
+%	\item Three-year Fish Camp counselor; student-run orientation program
+%	\end{itemize}
+
+%\section{AWARDS}             
+%            \begin{itemize} \itemsep -2pt
+%	\item {\sl Buck Weirus Spirit Award,} 2007; high involvement and positive impact award at Texas A\&M
+%	\end{itemize}
+ 
+\end{resume}
+\end{document}
+
+
+
+

@@ -1,2 +1,2 @@
 # resume
-My Resume
+My Resume, now in LaTeX!
